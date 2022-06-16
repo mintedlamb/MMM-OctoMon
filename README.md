@@ -39,7 +39,7 @@
 				elecCostSC: 0.25,
 				exptMedium: 10,
 				exptHigh: 20,
-				exptCostKWH: 0.75,
+				exptCostKWH: 0.075,
 				exptCostSC: 0,
 				gasMedium: 5,
 				gasHigh: 6,
@@ -70,7 +70,7 @@ The following config.js properties can be configured.
 | 'elecCostSC' | '0.25' | daily standing charge in pounds |
 | 'exptMedium' | '10' | kWh values over this export amount will be displayed in Yellow |
 | 'exptHigh' | '20' | kWh values over this export amount will be displayed in LightGreen |
-| 'exptCostKWH' | '0.75' | Export paid per kWh in pounds, or zero to hide display |
+| 'exptCostKWH' | '0.075' | Export paid per kWh in pounds, or zero to hide display |
 | 'exptCostSC' | '0' | Export daily standing charge in pounds |
 | 'gasMedium' | '5' | kWh values over this amount will be displayed in Orange |
 | 'gasHigh' | '6' | kWh values over this amount will be displayed in Red |
