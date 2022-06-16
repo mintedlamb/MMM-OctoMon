@@ -28,7 +28,8 @@
 		position: 'bottom_right',
 		header: '<img src="modules/MMM-OctoMon/public/octobw.jpg" style="width:20px;vertical-align:bottom;"/> Octopus Energy',
 		config: {
-				elecApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day',
+				elecApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day&',
+				exptApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day',
 				gasApiUrl: 'https://api.octopus.energy/v1/gas-meter-points/[GAS-MPRN]/meters/[GAS-SERIAL]/consumption/?group_by=day',
 				api_key: '[YOUR-API-KEY]',
 				displayDays: 7,
@@ -36,6 +37,10 @@
 				elecHigh: 20,
 				elecCostKWH: 0.1372,
 				elecCostSC: 0.25,
+				exptMedium: 10,
+				exptHigh: 20,
+				exptCostKWH: 0.75,
+				exptCostSC: 0,
 				gasMedium: 5,
 				gasHigh: 6,
 				gasCostKWH: 0.0331,
@@ -63,6 +68,10 @@ The following config.js properties can be configured.
 | 'elecHigh' | '20' | kWh values over this amount will be displayed in Red |
 | 'elecCostKWH' | '0.1372' | cost per kWh in pounds, or zero to hide display |
 | 'elecCostSC' | '0.25' | daily standing charge in pounds |
+| 'exptMedium' | '10' | kWh values over this export amount will be displayed in Yellow |
+| 'exptHigh' | '20' | kWh values over this export amount will be displayed in LightGreen |
+| 'exptCostKWH' | '0.75' | Export paid per kWh in pounds, or zero to hide display |
+| 'exptCostSC' | '0' | Export daily standing charge in pounds |
 | 'gasMedium' | '5' | kWh values over this amount will be displayed in Orange |
 | 'gasHigh' | '6' | kWh values over this amount will be displayed in Red |
 | 'gasCostKWH' | '0.0331' | cost per kWh in pounds, or zero to hide display |
