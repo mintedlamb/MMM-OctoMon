@@ -4,7 +4,7 @@
 
 ## Example
 
-![screenshot](screenshot.jpg)
+![screenshot](https://user-images.githubusercontent.com/107636191/174119387-295f63fb-03dc-42cf-8e70-bf870c089964.jpg)
 
 ## Dependencies
 
