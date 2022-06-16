@@ -28,8 +28,8 @@
 		position: 'bottom_right',
 		header: '<img src="modules/MMM-OctoMon/public/octobw.jpg" style="width:20px;vertical-align:bottom;"/> Octopus Energy',
 		config: {
-				elecApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day&',
-				exptApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day',
+				elecApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day&page_size=7',
+				exptApiUrl: 'https://api.octopus.energy/v1/electricity-meter-points/[ELECTRIC-MPAN]/meters/[METER_SERIAL]/consumption/?group_by=day'&page_size=7,
 				gasApiUrl: 'https://api.octopus.energy/v1/gas-meter-points/[GAS-MPRN]/meters/[GAS-SERIAL]/consumption/?group_by=day',
 				api_key: '[YOUR-API-KEY]',
 				displayDays: 7,
